@@ -1,0 +1,26 @@
+.parapetjalilistUl {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    background-color: white;
+    border-top: 3px solid #2ea3f2;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .parapetjalilistUl {
+        width: 100%;
+        box-shadow: none;
+        border: 0;
+        padding: 0;
+        padding-block: 0.6rem;
+        padding-left: 0.7rem;
+    }
+
+      .parapetjalilistUl li{
+        width: 93%;
+        padding-block: 0.7rem;
+        border-bottom: 1px solid #f6f4fa;
+    }
+}  

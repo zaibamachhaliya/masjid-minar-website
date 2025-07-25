@@ -1,0 +1,135 @@
+ .li {
+     padding-inline: 1rem;
+     border-right: 1px solid lightgrey;
+     position: relative;
+
+ }
+
+
+ .workai {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.2rem;
+ }
+
+ .downicon {
+     font-size: 1.1rem !important;
+ }
+
+
+ .workai:hover a {
+     transition: 0.2s ease-in-out;
+     opacity: 0.7;
+ }
+
+ .workList {
+     opacity: 0;
+     visibility: hidden;
+     transform: translateY(-10px);
+     transition: all 0.3s ease;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     z-index: 99;
+ }
+
+ .li:hover .workList {
+     opacity: 1;
+     display: block;
+     visibility: visible;
+     transform: translateY(0);
+ }
+
+
+
+
+ @media screen and (max-width:768px) {
+
+     .li {
+         width: 100%;
+         border-right: 0;
+     }
+
+     /* .li a {
+         font-size: 0.9rem;
+     } */
+
+     .workList {
+         position: static;
+     }
+
+     .workai {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .workai>a {
+         font-weight: bold;
+     }
+
+
+     .li:hover .workList {
+         all: unset;
+     }
+
+
+     .worklistShow {
+         display: block !important;
+         opacity: 1 !important;
+         visibility: visible !important;
+         transform: translateY(0) !important;
+     }
+
+     .worklistHide {
+         display: none !important;
+         opacity: 0 !important;
+         visibility: hidden !important;
+         transform: translateY(-10px) !important;
+     }
+
+     .downicon {
+         transition: transform 0.3s ease !important;
+         cursor: pointer;
+         background-color: rgb(229, 233, 235);
+         border-radius: 40px;
+         padding: 0.1rem;
+         font-size: 1rem !important;
+     }
+
+     .rotete {
+
+         transition: transform 0.3s ease !important;
+         transform: rotate(180deg);
+     }
+
+     .norotet {
+         transform: rotate(0deg);
+         transition: transform 0.3s ease !important;
+     }
+
+
+ }
+
+
+
+
+
+
+
+
+
+ /*   .workList {
+         position: static;
+         width: 100%;
+         background-color: white;
+         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+         padding: 1rem 1.5rem;
+         transition: all 0.3s ease;
+         opacity: 0;
+         visibility: hidden;
+         transform: translateY(-10px);
+         display: none;
+     }
+ */

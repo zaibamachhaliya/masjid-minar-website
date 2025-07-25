@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+  .ulList {
+    position: absolute;
+    /* top: 18%; */
+    top: 80%;
+    width: 75%;
+    background-color: white;
+    z-index: 100;
+    padding-block: 2.5rem;
+    padding-inline: 3rem;
+    border-top: 3px solid #2ea3f2;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 0;
+    transform: translateY(-13px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    pointer-events: none;
+    overflow-y: auto;
+    max-height: 250px;
+    scroll-behavior: smooth;
+  }
+
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .hide {
+    opacity: 0;
+    transform: translateY(-13px);
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width:425px)
+{
+   .ulList{
+    padding-inline: 2rem;
+   }
+}
+
+@media screen and (max-width:375px)
+{
+  .ulList{
+    padding-inline: 1.6rem;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width:290px)
+{
+  .ulList{
+    padding-inline: 1rem;
+  }
+}

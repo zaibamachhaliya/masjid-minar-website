@@ -1,0 +1,126 @@
+.introductioncontentcontainer {
+    width: 50%;
+    height: 75%;
+    margin-top: 4.8rem;
+
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.content span {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+    line-height: 2.6rem;
+    opacity: 0.8;
+
+}
+
+.outline {
+    border: 1px solid rgb(245, 245, 94);
+    width: 180px;
+}
+
+
+.content p {
+    text-align: left;
+    line-height: 1.7rem;
+    opacity: 0.7;
+    margin: 0;
+    font-weight: 500;
+}
+
+.content p a {
+
+    color: #2ea3f2;
+}
+
+
+.abtn {
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    background-color: #19615d;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 0.7rem;
+}
+
+.abtn:hover {
+    background-color: #22837e;
+    transition: 0.9s ease-in-out;
+}
+
+
+
+.Iicon {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.8);
+    transition: 0.9s ease-in-out;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-flex;
+}
+
+
+.abtn:hover .Iicon {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    max-width: 25px;
+    transition: 0.9s ease-in-out;
+}
+
+
+@media screen and (max-width:768px) {
+    .introductioncontentcontainer {
+        height: auto;
+        width: 72%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    .introductioncontentcontainer{
+        width: 90%;
+    }
+   
+   
+    .content span {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+
+    .content p{
+        line-height: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .content span{
+        font-size: 1.7rem;
+    }
+
+    .content p{
+        font-size: 0.9rem;
+    }
+
+    .abtn{
+        padding: 0.5rem 0.9rem;
+    }
+} 

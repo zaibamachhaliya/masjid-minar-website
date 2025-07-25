@@ -1,0 +1,41 @@
+.heroSection {
+    height: 80vh;
+    background-image: url('./vecteezy_3d-illustration-of-amazing-architecture-design-of-muslim_22717634.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.btncontainer {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+} 
+
+@media screen and (max-width:1024px){
+      .heroSection{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+  
+
+    .btncontainer{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .btncontainer{
+        display: none;
+    }
+}

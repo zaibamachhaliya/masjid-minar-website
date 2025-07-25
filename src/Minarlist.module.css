@@ -1,0 +1,27 @@
+.minarlistUl {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1.5rem 2.2rem;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-top: 3px solid #2ea3f2;
+}
+
+@media screen and (max-width:768px) {
+    .minarlistUl {
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+        border: 0;
+        padding-block: 0.3rem;
+        padding-left: 1rem;
+    }
+
+    .minarlistUl li{
+        border-bottom: 1px solid #f6f4fa;
+        padding-block: 0.7rem;
+        width: 93%;
+    }
+}
+

@@ -1,0 +1,18 @@
+
+ .nextbtn {
+  background: linear-gradient(to left top, #00332f, #00665c, white, #a7ffeb);
+  border: none;
+  color: white;
+   padding: 5px 17px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+.nextbtn:hover {
+  background: linear-gradient(to right bottom, #00221f, #004d45, white, #6fffd2);
+}
+
+.righticon{
+     width: 20px!important;
+}

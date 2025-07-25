@@ -1,0 +1,136 @@
+.cardeSectionContainer {
+    max-width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contntContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    padding: 0.7rem 1.2rem;
+    background-color: #19615d;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.btn:hover {
+    background-color: #22837e;
+    transition: 0.9s ease-in-out;
+}
+
+.icon {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.8);
+    transition: 0.9s ease-in-out;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-flex;
+}
+
+.btn:hover .icon {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    max-width: 25px;
+    transition: 0.9s ease-in-out;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+.content p {
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1rem;
+    place-items: center;
+}
+
+.grid img{
+    width: 80%;
+    height: 84%;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width:662px){
+    .grid img{
+        width: 48%;
+    }
+
+    .firstimg{
+        width: 71% !important;
+    }
+} */
+
+
+
+@media screen and (max-width:768px){
+    .contntContainer{
+        display: flex;
+        flex-direction: column;
+        width: 73%;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .cardContainer{
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .content h1{
+        font-size: 2rem;
+    }
+
+    .content a{
+        align-self: flex-end;
+    }
+
+    .content p{
+        line-height: 1.5rem;
+    }
+
+    .btn{
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width:425px){
+     .content p{
+          line-height: 1.3rem;
+     }
+}

@@ -1,0 +1,26 @@
+.wuzustandlistUl {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-top: 3px solid #2ea3f2;
+    width: 10rem;
+    padding: 1.3rem 1.8rem;
+    background-color: white;
+}
+
+@media screen and (max-width:768px) {
+    .wuzustandlistUl {
+        width: 100%;
+        box-shadow: none;
+        border: 0;
+        padding: 0;
+        padding-block: 0.6rem;
+        padding-left: 0.6rem;
+    }
+
+    .wuzustandlistUl li{
+        width: 93%;
+        padding-block: 0.7rem;
+        border-bottom: 1px solid #f6f4fa;
+    }
+} 

@@ -1,0 +1,328 @@
+.productlistUl {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    padding-block: 1.8rem;
+    padding-left: 1.7rem;
+    padding-right: 2.5rem;
+    gap: 0.2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-top: 3px solid #2ea3f2;
+    margin-top: 0.2rem;
+}
+
+.productlistUl li {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.productlistUl li:hover {
+    background-color: #f5f6f9;
+    transition: 0.2s ease-in-out;
+}
+
+
+.minarai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.minargelleryai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parpatjaliai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wuzustandai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minaricon,
+.minargelleryicon,
+.parapetjaliicon,
+.wuzustandicon {
+    font-size: 1.1rem !important;
+}
+
+/* minarlist */
+
+.minarList {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: 0.2rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.1s ease;
+    z-index: 9;
+}
+
+
+@media (min-width: 769px) {
+    .minarli:hover .minarList {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .minargelleryli:hover .minargellerylist {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .parapetjaliLi:hover .parapetjaliList {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .workstandLi:hover .wuzustandlist {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+}
+
+
+/* minargellerylist */
+
+.minargellerylist {
+    position: absolute;
+    left: 100%;
+    top: 30%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.1s ease;
+    z-index: 10;
+}
+
+
+
+/* parapetjaliList */
+
+.parapetjaliList {
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.1s ease;
+    z-index: 11;
+}
+
+
+
+/* wuzustandlist */
+
+.wuzustandlist {
+    position: absolute;
+    top: 55%;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.1s ease;
+    z-index: 12;
+}
+
+
+
+
+/* responsiv */
+
+
+@media screen and (max-width:768px) {
+    .productlistUl {
+        width: 100%;
+        padding-inline: 0;
+        border: 0;
+        box-shadow: none;
+        padding-block: 0.5rem;
+        padding-left: 1rem;
+        gap: 0;
+    }
+
+
+    .productlistUl>li {
+        width: 96%;
+        padding-block: 0.7rem;
+        border-bottom: 1px solid #f6f4fa;
+
+    }
+
+    .minaricon,
+    .minargelleryicon,
+    .parapetjaliicon,
+    .wuzustandicon {
+        transition: transform 0.3s ease !important;
+        cursor: pointer;
+        background-color: rgb(229, 233, 235);
+        border-radius: 40px;
+        padding: 0.1rem;
+        font-size: 1rem !important;
+    }
+
+    .minarli:hover {
+        background-color: transparent !important;
+    }
+
+    .minargelleryli:hover {
+        background-color: transparent !important;
+    }
+
+    .parapetjaliLi:hover {
+        background-color: transparent !important;
+    }
+
+    .workstandLi:hover {
+        background-color: transparent !important;
+    }
+
+
+    /* minarlistShow */
+
+
+    .minarList {
+        position: static;
+    }
+
+
+    .minarlistShow {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateX(0) !important;
+    }
+
+    .minarlistHide {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateX(-10px) !important;
+    }
+
+
+    .rotete {
+
+        transition: transform 0.3s ease !important;
+        transform: rotate(180deg);
+    }
+
+    .norotet {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease !important;
+    }
+
+
+
+    /* minargellerylistShow */
+
+
+    .minargellerylist {
+        position: static;
+    }
+
+    .minarGelleryShow {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateX(0) !important;
+    }
+
+    .minarGelleryHide {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateX(-10px) !important;
+    }
+
+    .rotete {
+        transition: transform 0.3s ease !important;
+        transform: rotate(180deg);
+    }
+
+    .norotet {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease !important;
+    }
+
+
+    /* parpetjalislistShow */
+
+    .parapetjaliList {
+        position: static;
+    }
+
+
+    .parpetjalislistShow {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateX(0) !important;
+    }
+
+    .parapetjalilistHide {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateX(-10px) !important;
+    }
+
+    .rotete {
+        transition: transform 0.3s ease !important;
+        transform: rotate(180deg);
+    }
+
+    .norotet {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease !important;
+    }
+
+
+    /* wuzustandlistShow */
+
+    .wuzustandlist{
+        position: static;
+    }
+
+    .wuzustandlistShow {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateX(0) !important;
+    }
+
+    .wuzustandlistHide {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateX(-10px) !important;
+    }
+
+     .rotete {
+        transition: transform 0.3s ease !important;
+        transform: rotate(180deg);
+    }
+
+    .norotet {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease !important;
+    }
+}

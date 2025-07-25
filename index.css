@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', Helvetica, Arial, Lucida, sans-serif;
+}
+
+#root {
+    padding: 0 !important;
+    max-width: 100% !important;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+     font-weight: 500;
+}
+
+li{
+    list-style: none;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .noscroll{
+         overflow: hidden !important;
+    }
+} 

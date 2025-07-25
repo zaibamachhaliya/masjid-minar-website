@@ -1,0 +1,57 @@
+ .linkdinbtnPerent {
+     background-color: #19615d;
+     border-radius: 40px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+     cursor: pointer;
+     padding: 0.4rem 0.9rem;
+ }
+
+ .linkdinbtn {
+
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     color: white;
+     font-size: 0.8rem;
+     font-weight: 600;
+     position: relative;
+     justify-content: center;
+     cursor: pointer;
+
+ }
+
+ .icon {
+     opacity: 0;
+     transform: translateX(-100px) scale(0.8);
+     transition:0.9s ease-in-out;
+     max-width: 0;
+     overflow: hidden;
+     white-space: nowrap;
+     display: inline-flex;
+ } 
+
+ .linkdinbtnPerent:hover{
+    background-color: #22837e;
+    transition: 0.9s ease-in-out;
+ }
+
+
+ .linkdinbtnPerent:hover .icon {
+     opacity: 1;
+     transform: translateX(0) scale(1);
+     max-width: 20px;
+     transition:0.9s ease-in-out;
+ }
+
+
+ /* responsive */
+
+@media screen and (max-width:768px)
+{
+    .linkdinbtnPerent{
+        display: none;
+    }
+} 

@@ -1,0 +1,28 @@
+
+.topBar{
+    height: 8.1vh;
+    background-image: url('./wall-wallpaper-concrete-colored-painted-textured-concept (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.marqueeContainer{
+    padding-block: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+marquee{
+    color: white;
+} 
+
+
+/* responsive */
+
+@media screen and (max-width:768px)
+{
+    marquee{
+        display: none;
+    }
+}
