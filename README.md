@@ -1,2 +1,2 @@
-# masjid-minar
-A beautiful Masjid Minar website built with HTML/CSS/JS/React.
+# masjid-minar-website
+A beautiful Masjid Minar website built using **HTML**, **CSS**, **JavaScript**, and **React**.
