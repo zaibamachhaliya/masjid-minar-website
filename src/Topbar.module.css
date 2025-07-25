@@ -1,7 +1,8 @@
 
 .topBar{
     height: 8.1vh;
-    background-image: url('./wall-wallpaper-concrete-colored-painted-textured-concept (1).jpg');
+     background-image: url("/wall.jpg");
+    /* background-image: url('./wall-wallpaper-concrete-colored-painted-textured-concept (1).jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
