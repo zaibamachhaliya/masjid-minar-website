@@ -87,12 +87,16 @@
 
 @media screen and (max-width:768px) {
     .content h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .content p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
 
+    }
+
+    .connectsectioncontainer{
+        padding-inline: 2rem;
     }
 }
 

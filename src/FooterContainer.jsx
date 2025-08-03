@@ -1,16 +1,19 @@
+
 import styles from './FooterContainer.module.css';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-
 
 function FooterContainer() {
     return (
         <div className={styles.footercontainer}>
 
             <div className={styles.info}>
-            
-                <CallIcon className={`${styles.infoicon} animate__animated animate__slideInDown`}/>
+                <CallIcon
+                    className={styles.infoicon}
+                    data-aos="slide-down"
+                    data-aos-duration="1000"
+                />
                 <div className={styles.h3pperent}>
                     <h3 className={styles.locationh3}>Contact Number</h3>
                     <div>
@@ -20,11 +23,14 @@ function FooterContainer() {
                 </div>
             </div>
 
-
             <div className={styles.info}>
-                <EmailIcon className={`${styles.infoicon} animate__animated animate__slideInDown`}></EmailIcon>
-
-                <div  className={styles.h3pperent}>
+                <EmailIcon
+                    className={styles.infoicon}
+                    data-aos="slide-down"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                />
+                <div className={styles.h3pperent}>
                     <h3 className={styles.locationh3}>Email Address</h3>
                     <div>
                         <p className={styles.locationp}>dauvahanif786@gmail.com</p>
@@ -32,10 +38,14 @@ function FooterContainer() {
                 </div>
             </div>
 
-
             <div className={styles.info}>
-                <LocationOnIcon className={`${styles.infoicon} animate__animated animate__slideInDown`}></LocationOnIcon>
-                <div  className={styles.h3pperent}>
+                <LocationOnIcon
+                    className={styles.infoicon}
+                    data-aos="slide-down"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                />
+                <div className={styles.h3pperent}>
                     <h3 className={styles.locationh3}>Location</h3>
                     <div>
                         <p className={styles.locationp}>Western Express Highway Vasai East – 401208 Mumbai (Maharashtra-India)</p>

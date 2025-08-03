@@ -24,7 +24,7 @@
 
  .img {
      width: 320px;
-      left: 0;
+     left: 0;
      top: 0;
      opacity: 0;
      animation:
@@ -40,9 +40,9 @@
      align-items: flex-start;
      flex-direction: column;
      justify-content: center;
-      animation:
+     animation:
          floatFromBottom 0.9s ease-out 0.2s forwards,
-          pulseButton 0.9s ease-in 3s forwards; 
+         pulseButton 0.9s ease-in 3s forwards;
  }
 
 
@@ -71,56 +71,83 @@
  }
 
 
- .heroContent button {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 0.6rem 1rem;
-     background: linear-gradient(to right bottom, rgb(0, 51, 153), rgb(0, 204, 204));
-     border: none;
-     color: white;
-     cursor: pointer;
-     transition: background 0.4s ease;
-     border-radius: 10px;
-     gap: 0.5rem;
-
- }
 
 
- .heroContent button a {
-     color: white;
-     font-size: 1rem;
- }
-
- .heroContent button:hover {
-     background: linear-gradient(to left top, rgb(0, 102, 204), rgb(102, 255, 255));
-
- }
-
- .btn {
-     width: 100%;
- }
 
 
- .btnicon {
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
 
-     opacity: 0;
-     transform: translateX(-100px) scale(0.8);
-     transition: 0.5s ease-in-out;
-     max-width: 0;
-     overflow: hidden;
-     white-space: nowrap;
-     display: inline-flex;
- }
+.btn button {
+  background: linear-gradient(5deg, #00382f, #07d6e9);
+  color: white;
+  padding: 0.6rem 1.4rem; /* more horizontal space for hidden icon */
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; /* center text + icon */
+  /* gap: 0.4rem; */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(11, 83, 69, 0.3);
+ 
+    transition: 0.3s ease-in-out;
+}
 
- .heroContent button:hover .btnicon {
+.btn button:hover {
+  /* transform: scale(1.03); */
+    transition: 0.3s ease-in-out;
+  box-shadow: 0 6px 16px rgba(14, 98, 81, 0.5);
+}
 
-     opacity: 1;
-     transform: translateX(0) scale(1);
-     max-width: 40px;
-     transition: 0.5s ease-in-out;
- }
+/* TEXT style */
+.btn button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
 
+/* ICON hidden by default */
+.btnicon {
+  opacity: 0;
+  transform: translateX(-70px);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+/* On hover, show icon */
+.btn button:hover .btnicon {
+  opacity: 1;
+  transform: translateX(12px);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -164,7 +191,7 @@
      display: flex;
      width: 100%;
      position: relative;
-    
+
  }
 
 
@@ -174,7 +201,7 @@
      0% {
          opacity: 0;
          transform: translateY(80px);
-        
+
      }
 
      100% {
@@ -188,67 +215,71 @@
 
 
 
-@media screen and (max-width:1024px){
-    
-      .a{
+ @media screen and (max-width:1024px) {
+
+     .a {
          font-size: 2.8rem;
-    }
+     }
 
-    .imgContentContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+     .imgContentContainer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
 
-    .imgContainer{
-        width: 65%;
-        display: flex;
-        justify-content: flex-start;
-    }
+     .imgContainer {
+         width: 65%;
+         display: flex;
+         justify-content: flex-start;
+     }
 
-    .heroContent h1 a{
-        font-size: 2.1rem;
-    }
+     .heroContent h1 a {
+         font-size: 2.1rem;
+     }
 
-    .heroContent p{
-        font-size: 0.9rem;
-        line-height: 1.4rem;
-    }
-}
+     .heroContent p {
+         font-size: 0.9rem;
+         line-height: 1.4rem;
+     }
 
-@media screen and (max-width:768px){
-    
-    .imgContainer{
-          margin-top: 1.2rem;
-    }
-    
-     .heroContent h1{
-        text-align: left;
-    }
-}
+     .btn{
+        margin-bottom: 1.5rem;
+     }
+ }
 
-@media screen and (max-width:425px){
-    .imgContainer{
-        margin-top: 2rem;
-    }
+ @media screen and (max-width:768px) {
 
-    .heroContent h1{
-        text-align: left;
-    }
+     .imgContainer {
+         margin-top: 1.2rem;
+     }
 
-    .heroContent h1 a{
-        font-size: 1.7rem;
-    }
-}
+     .heroContent h1 {
+         text-align: left;
+     }
+ }
 
-@media screen and (max-width:375px){
-    .img{
-        width: 260px;
-    }
-}
+ @media screen and (max-width:425px) {
+     .imgContainer {
+         margin-top: 2rem;
+     }
 
-@media screen and (max-width:320px){
-    .img{
-      width: 200px;
-    }
-}
+     .heroContent h1 {
+         text-align: left;
+     }
+
+     .heroContent h1 a {
+         font-size: 1.7rem;
+     }
+ }
+
+ @media screen and (max-width:375px) {
+     .img {
+         width: 260px;
+     }
+ }
+
+ @media screen and (max-width:320px) {
+     .img {
+         width: 200px;
+     }
+ }

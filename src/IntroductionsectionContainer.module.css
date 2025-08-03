@@ -9,6 +9,12 @@
     /* justify-content: space-around; */
 }
 
+@media screen and (max-width:1024px){
+     .introductionContainer{
+        padding-inline: 2rem;
+     }
+}
+
 @media screen and (max-width:768px){
     .introductionContainer{
         display: flex;

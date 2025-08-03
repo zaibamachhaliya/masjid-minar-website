@@ -1,78 +1,78 @@
  .heroContent {
-    width: 65%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-}
+     width: 65%;
+     display: flex;
+     align-items: flex-start;
+     flex-direction: column;
+     justify-content: center;
+ }
 
-.heroContent h1{
-      margin: 0;
-    padding: 0;
-}
+ .heroContent h1 {
+     margin: 0;
+     padding: 0;
+ }
 
-.heroContent h1 a{
-    font-size: xxx-large;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-weight: 900;
-    text-align: left;
-}
+ .heroContent h1 a {
+     font-size: xxx-large;
+     margin: 0;
+     padding: 0;
+     color: white;
+     font-weight: 900;
+     text-align: left;
+ }
 
-.heroContent p {
-    color: white;
-    text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-}
-
-
-.heroContent button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.6rem 1rem;
-    background: linear-gradient(to right bottom, rgb(0, 51, 153), rgb(0, 204, 204));
-    border: none;
-    color: white;
-    cursor: pointer;
-    transition: background 0.4s ease;
-    border-radius: 10px;
-    gap: 0.5rem;
-}
+ .heroContent p {
+     color: white;
+     text-align: left;
+     font-size: 1.1rem;
+     line-height: 1.7rem;
+ }
 
 
-.heroContent button a {
-    color: white;
-    font-size: 1rem;
-}
+ .heroContent button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0.6rem 1rem;
+     background: linear-gradient(to right bottom, rgb(0, 51, 153), rgb(0, 204, 204));
+     border: none;
+     color: white;
+     cursor: pointer;
+     transition: background 0.4s ease;
+     border-radius: 10px;
+     gap: 0.5rem;
+ }
 
-.heroContent button:hover {
-    background: linear-gradient(to left top, rgb(0, 102, 204), rgb(102, 255, 255));
 
-}
+ .heroContent button a {
+     color: white;
+     font-size: 1rem;
+ }
 
-.btn{
-    width: 100%;
-}
+ .heroContent button:hover {
+     background: linear-gradient(to left top, rgb(0, 102, 204), rgb(102, 255, 255));
+
+ }
+
+  .btn {
+     width: 100%;
+ }
 
 
-.btnicon {
+ .btnicon {
 
-    opacity: 0;
-    transform: translateX(-100px) scale(0.8);
-    transition: 0.5s ease-in-out;
-    max-width: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-flex;
-}
+     opacity: 0;
+     transform: translateX(-100px) scale(0.8);
+     transition: 0.5s ease-in-out;
+     max-width: 0;
+     overflow: hidden;
+     white-space: nowrap;
+     display: inline-flex;
+ }
 
-.heroContent button:hover .btnicon {
+ .heroContent button:hover .btnicon {
 
-    opacity: 1;
-    transform: translateX(0) scale(1); 
-    max-width: 40px;
-    transition: 0.5s ease-in-out;
-} 
+     opacity: 1;
+     transform: translateX(0) scale(1);
+     max-width: 40px;
+     transition: 0.5s ease-in-out;
+ } 

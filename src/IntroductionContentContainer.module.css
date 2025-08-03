@@ -44,45 +44,49 @@
 }
 
 
-.abtn {
-    border-radius: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    cursor: pointer;
-    padding: 0.7rem 1.2rem;
-    background-color: #19615d;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-top: 0.7rem;
+
+ .abtn {
+  border-radius: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0.7rem 1.8rem; /* thoda extra space icon ke liye */
+  background: linear-gradient(135deg, #004d40, #00695c); /* silverish green look */
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  gap: 0.5rem;
+  position: relative;
+ transition: 0.3s ease-in-out !important;
 }
 
+/* Hover without movement */
 .abtn:hover {
-    background-color: #22837e;
-    transition: 0.9s ease-in-out;
+   transition: 0.3s ease-in-out !important;
+  background: linear-gradient(135deg, #19615d, #22837e); /* smooth darker gradient */
 }
 
-
-
+/* icon default hidden */
 .Iicon {
-    opacity: 0;
-    transform: translateX(-100px) scale(0.8);
-    transition: 0.9s ease-in-out;
-    max-width: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-flex;
+  opacity: 0;
+  transform: translateX(-50px);
+ 
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
 }
 
-
+/* icon appears on hover */
 .abtn:hover .Iicon {
-    opacity: 1;
-    transform: translateX(0) scale(1);
-    max-width: 25px;
-    transition: 0.9s ease-in-out;
+  opacity: 1;
+  transform: translateX(4px);
+  width: auto;
+ transition: 0.5s ease-in-out;
 }
+
+
 
 
 @media screen and (max-width:768px) {
@@ -92,6 +96,8 @@
         margin: 0;
     }
 }
+
+
 
 @media screen and (max-width:425px) {
     
