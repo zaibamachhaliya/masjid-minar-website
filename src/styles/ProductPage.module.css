@@ -1,0 +1,247 @@
+.productHeroSection {
+    height: 77.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('productHero.png');
+    background-position: center;
+
+}
+
+.productSectionContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.productSectionContainer h1,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.productSectionContainer h4 {
+    font-family: 'Lexend Deca', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #04422e;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+
+}
+
+.productSectionContainer h1 {
+    font-size: xxx-large;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+.productSectionContainer p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width:880px) {
+    .productSectionContainer h1 {
+        font-size: xx-large;
+    }
+
+    .productSectionContainer p {
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width:750px) {
+
+
+
+
+    .productSectionContainer {
+        width: 90%;
+    }
+
+    .productSectionContainer h4 {
+        font-size: 15px;
+    }
+
+    .productSectionContainer h1 {
+        font-size: 20px;
+    }
+
+    .productSectionContainer p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .productSectionContainer h1 {
+        font-size: 17px;
+    }
+
+    .productSectionContainer p {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+.imgSection {
+    margin-top: 5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+}
+
+.imgSectionContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    row-gap: 4rem;
+    place-items: center;
+}
+
+
+.imgCard {
+    width: 80%;
+    height: 510px;
+    padding-right: 1.5rem;
+    border-right: 1px solid lightgray;
+}
+
+.imgCard img {
+    width: 100%;
+    height: 45%;
+}
+
+.imgCard p {
+    text-align: left;
+    font-weight: 300;
+    opacity: 0.7;
+    margin: 0;
+    line-height: 1.6rem;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cardContent p strong {
+    font-size: 1rem !important;
+}
+
+.cardContent h1 {
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 0.8;
+    margin: 0;
+
+}
+
+.outline {
+
+    border: 1px solid #04422e;
+    width: 100px;
+    /* margin-bottom: 1rem; */
+}
+
+
+.imgSectionContainer span {
+    font-weight: 600;
+}
+
+@media screen and (max-width:425px) {
+    .cardContent h1 {
+        font-size: x-large;
+    }
+
+
+}
+
+
+.imgSecondSectionContainer {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 auto;
+    margin-top: 3rem;
+    gap: 1rem;
+    place-items: center;
+}
+
+.imgSecondsectionCard {
+    border-right: 1px solid lightgray;
+    padding-right: 1rem;
+    width: 90%;
+}
+
+
+.imgSecondsectionCard img {
+    height: 320px;
+    width: 100%;
+}
+
+.imgSecondsectionCard h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    opacity: 0.8;
+    margin: 0;
+
+}
+
+.imgSecondsectionCard p {
+    text-align: left;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 1.4rem;
+}
+
+.secondpartContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:622px) {
+    .imgSecondSectionContainer {
+        row-gap: 4rem;
+    }
+
+    .secondpartContent h1 {
+        font-size: x-large;
+    }
+
+    .cardContent p {
+        line-height: 1.3rem;
+    }
+
+    .cardContent p strong {
+        font-size: 0.8rem !important;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .secondpartContent h1 {
+        font-size: 17px;
+    }
+
+    .secondpartContent p {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+}

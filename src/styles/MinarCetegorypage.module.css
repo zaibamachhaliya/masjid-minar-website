@@ -1,0 +1,206 @@
+.cetegorySection {
+    height: auto;
+    width: 100%;
+
+}
+
+.minarCetegoryContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.minarPart {
+    width: 73%;
+}
+
+.blogPart {
+    width: 30%;
+    border-left: 1px solid #ebe8e8;
+    margin-top: 5rem;
+    padding-left: 30px;
+}
+
+.blogPart a {
+    color: black;
+    opacity: 0.6;
+}
+
+.topPart {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.topPart h2 {
+    margin: 0;
+}
+
+.minarPartcontent {
+    padding-top: 4rem;
+}
+
+.hintPart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    opacity: 0.8;
+
+}
+
+.hintPart h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.topPart select {
+    background-color: #ececec;
+    border: none;
+    border-radius: 3px;
+    border-width: 0;
+    color: #666;
+    font-size: 13px;
+    outline: none;
+    padding: 6px 10px;
+    font-weight: 500;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+.bootemPart {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+
+.bootemPartContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 60px;
+    column-gap: 20px;
+
+}
+
+
+
+.card {
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 90%;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card p {
+    position: absolute;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+     color: black;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .minarCetegoryContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .minarPart {
+        width: 100%;
+    }
+
+    .topPart,
+    .bootemPart {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .blogPart {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .bootemPartContainer {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .bootemPartContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .topPart {
+        display: flex;
+        width: 81%;
+        align-items: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .hintPart h2 {
+        font-size: x-large;
+    }
+
+    .hintPart a,
+    span,
+    p {
+        font-size: 0.8rem;
+    }
+
+    .bootemPartContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bootemPartContainer .card {
+        width: 80%;
+    }
+
+    .bootemPart {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    .topPart {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blogPart {
+        width: 81%;
+        border: none;
+    }
+}

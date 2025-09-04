@@ -12,9 +12,9 @@ This project is designed to showcase beautifully crafted Masjid Minars with mode
 - 📦 State management with Redux  
 - 📱 Fully responsive design for all devices
 
-- ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 - React.js  
 - Redux  
 - React Router  
 - JavaScript (ES6+)  
-- CSS 
+- CSS

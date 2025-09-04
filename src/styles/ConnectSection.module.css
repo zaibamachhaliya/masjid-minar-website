@@ -1,0 +1,113 @@
+.connectSection {
+    width: 100%;
+    height: auto;
+    background-image: url('wall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 2rem;
+}
+
+.connectContainer {
+    max-width: 1150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ConnectContent {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 1rem;
+    gap: 1.3rem;
+}
+
+.ConnectContent h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+
+.ConnectContent p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: .6rem;
+    margin-top: 0.7rem;
+}
+
+.iconContainer .icon{
+    cursor: pointer;
+}
+
+.facebookicon {
+    color: #3b5998;
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+}
+
+.twittericon {
+    color: black;
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+}
+
+.instagramicon {
+    background-color: #ea2c59;
+    color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+}
+
+.linkdin {
+    color: #0077B5;
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+}
+
+.watsepicon {
+    background-color: #25D366;
+    color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width:425px) {
+
+    .ConnectContent {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .ConnectContent h1 {
+        font-size: 30px !important;
+    }
+
+    .ConnectContent p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}

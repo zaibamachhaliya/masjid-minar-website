@@ -1,0 +1,150 @@
+.parapetJaliCetegorySectionn {
+    height: auto;
+}
+
+.ParapetJaliCetegoryContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-block: 4rem;
+    height: auto;
+}
+
+.cetegoryContent {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parapetjalicetegoryCard {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+.parapetjaliCardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.8rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.parapetjaliCardContainer img {
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 15px;
+}
+
+.parapetjaliCardContainer p{
+    margin-top: 7px;
+}
+
+.parapetjalicetegoryblogPart {
+    width: 20%;
+    height: auto;
+}
+
+
+.parapetjalicetegoryContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   width: 100%;
+}
+
+.parapetjalitxtPart h2 {
+    font-size: 43px;
+    margin-block: 0.3rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.parapetjalitxtPart span,
+p {
+    color: black;
+    opacity: 0.8;
+}
+
+.selectarea select {
+    background-color: #ececec;
+    border: none;
+    border-radius: 3px;
+    border-width: 0;
+    color: #666 !important;
+    font-size: 14px;
+    padding: 6px 8px;
+    font-weight: 500;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.cetegoryContentPerent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.parapetjaliblogContainer{
+    height: 100%; 
+}
+
+.parapetjaliblogContainer p{
+    border-left: 1px solid lightgrey;
+    height: 100%;
+     padding-left: 30px;
+     opacity: 0.6;
+     padding-block: 6rem;
+}
+
+
+@media screen and (max-width:1124px){
+
+    .cetegoryContent{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cetegoryContentPerent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cetegoryContent{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .parapetjalicetegoryContent{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .parapetjalitxtPart h2{
+        font-size: xx-large;
+    }
+
+    .parapetjaliblogContainer p{
+        border: none;
+    }
+
+    .parapetjaliCardContainer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .parapetjalitxtPart h2{
+        font-size: x-large;
+    }
+}

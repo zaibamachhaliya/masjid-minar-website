@@ -1,0 +1,418 @@
+.parapetjaliHeroSection {
+    height: auto;
+    background-size: initial;
+    background-position: left top;
+    background-image: radial-gradient(circle at top left, rgba(237, 239, 250, 0.63) 20%, #edeffa 80%), url('/abouthero.jpeg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ParpetJaliHeroContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 3rem;
+    height: auto;
+    padding: 4rem;
+}
+
+.parapetJaliHeroContent {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.parapetJaliHeroImgPart img {
+    width: 350px;
+}
+
+.parapetJaliHeroText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.parapetJaliHeroText h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+.parapetJaliHeroText p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.parapetJaliHeroText p span {
+    font-size: 1.3rem;
+    color: #053d2b;
+    font-weight: 600;
+
+}
+
+.parapetJaliHeroText button {
+    background-color: #053d2b;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.parapetJaliHeroText button:hover {
+    background-color: #06583e;
+    transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width:992px) {
+    .parapetJaliHeroContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 70%;
+        margin: 0 auto;
+        gap: 3rem;
+    }
+
+    .parapetJaliHeroImgPart {
+        width: 100%;
+    }
+
+    .parapetJaliHeroText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .parapetJaliHeroContent {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:458px) {
+
+
+
+    .ParpetJaliHeroContainer {
+        width: 80%;
+        padding-block: 3rem;
+        padding-inline: 0;
+    }
+
+    .parapetJaliHeroImgPart {
+        width: 100%;
+    }
+
+    .parapetJaliHeroImgPart img {
+        width: 100%;
+    }
+
+    .parapetJaliHeroText {
+        gap: 1rem;
+    }
+
+    .parapetJaliHeroText h1 {
+        font-size: 1.5rem;
+    }
+
+    .parapetJaliHeroText p span {
+        font-size: 1rem;
+    }
+}
+
+
+.parapetjaliCardSection {
+    height: auto;
+    background-image: linear-gradient(180deg, #ffffff 0%, #edeffa 28%) !important;
+
+}
+
+.parapetJaliCardeContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-inline: 4rem;
+    padding-block: 7rem;
+}
+
+.parapetjaligridContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5rem;
+    align-items: center;
+    row-gap: 5.5rem;
+}
+
+.parapetJaliCard {
+    width: 230px;
+    height: 310px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.parapetJaliCard span {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 1rem;
+    font-weight: lighter;
+    background-color: #2ea3f2;
+    border-radius: 50%;
+    padding-inline: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.4rem;
+    opacity: 0;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.parapetJaliCard img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.parapetJaliCard img:hover {
+    opacity: 0.2;
+    transition: 0.3s ease-in-out;
+
+}
+
+.parapetJaliCard:hover span {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.parapetJaliCard p {
+    background-color: black;
+    color: white;
+    padding-block: 0.4rem;
+    padding-inline: 0.7rem;
+    margin-top: 0.2rem;
+    opacity: 1 !important;
+    border-top-left-radius: 5px;
+}
+
+@media screen and (max-width:992px) {
+    .parapetjaligridContainer {
+        justify-content: center;
+    }
+}
+
+
+/*  */
+
+.parapetjalilinksSection {
+    text-align: center;
+    padding-block: 1rem;
+    background-color: rgba(25, 97, 93, 0.09);
+}
+
+
+.parpetjalidetailImg img {
+    width: 340px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.parapetjalidetailSection {
+    align-items: flex-start;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.parapetjaliimgDetailContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.parapetjaliimgDetailContent h2 {
+    font-size: 33px;
+    margin: 0;
+    color: #06583e;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #06583e;
+}
+
+.parapetjaliimgDetailContent p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
+.parapetjaliimgDetailContent button {
+    background-color: #044b34;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.parapetjaliimgDetailContent button svg {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    transform: translateX(-20px);
+
+
+}
+
+.parapetjaliimgDetailContent button:hover svg {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    transform: translateX(0px);
+}
+
+.parapetjaliimgDetailContent button:hover {
+    background-color: #066b4b;
+    transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width:1024px) {
+    .parapetjalidetailSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parpetjalidetailImg,
+    .parapetjaliimgDetailContent {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .parapetjalidetailSection {
+        display: flex;
+        gap: 3rem;
+        padding: 0;
+        width: 80%;
+        padding-block: 4rem;
+        margin: 0 auto;
+    }
+
+    .parpetjalidetailImg{
+        display: flex;
+        justify-content: center;
+    }
+    .parpetjalidetailImg img {
+        width: 300px;
+    }
+
+    .parapetjaliimgDetailContent h2 {
+        font-size: x-large;
+    }
+
+    .parapetjaliimgDetailContent p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:320px){
+     .parpetjalidetailImg img {
+        width: 250px;
+    }
+
+    .parapetjaliimgDetailContent h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+.fullImage {
+    height: 370px;
+    width: 450px;
+    border-radius: 4px;
+    display: block;
+}
+
+
+
+.fullscreenOverlayWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+.imageWrapper {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fullImage {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 4px;
+    display: block;
+}
+
+
+.closeBtn {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    font-size: 28px;
+    width: 33px;
+    padding-bottom: 5px;
+    height: 27px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10000;
+    transition: background 0.3s;
+}

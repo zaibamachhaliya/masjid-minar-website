@@ -1,0 +1,288 @@
+.heroSection {
+    z-index: 1;
+    height: 80vh;
+    background-image: url('/heroImg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000c;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+
+
+.heroContainer {
+    height: 100%;
+}
+
+
+.controlbtn {
+    position: absolute;
+    top: 50%;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlbtn button {
+    background: linear-gradient(to left top, #00332f, #00665c, white, #a7ffeb);
+    border: none;
+    padding: 0.4rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+
+
+.controlbtn button:hover {
+    background: linear-gradient(to right bottom, #00221f, #004d45, white, #6fffd2);
+}
+
+.heroContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heroImg {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroImg img {
+    width: 330px;
+}
+
+.heroText {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.heroText h1 {
+    font-size: xxx-large;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: left;
+    font-family: 'Lexend Deca', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 900;
+}
+
+
+.heroText p {
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+
+}
+
+
+.heroText button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(5deg, #00382f, #07d6e9);
+    color: white;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    gap: 4px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+.heroText button:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0 6px 16px #0e625180;
+}
+
+.heroText button svg {
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    transform: translateX(-40px);
+
+}
+
+.heroText button:hover svg {
+    transition: 0.2s ease-in-out;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+/* HeroSection.module.css */
+
+@keyframes fadeInLeftZoom {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+        filter: blur(20px);
+        /* blur start */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0);
+        /* clear at the end */
+    }
+}
+
+.fadeInLeftZoom {
+    animation: fadeInLeftZoom 1.2s ease forwards;
+}
+
+
+
+@keyframes floatFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(80px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+.floatFromBottom {
+    animation: floatFromBottom .9s ease-out .2s forwards;
+}
+
+
+@media screen and (max-width:1024px) {
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 700px;
+        justify-content: center;
+        gap: 4rem;
+        align-items: center;
+        padding-block: 3rem;
+
+    }
+
+    .heroImg {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .heroText {
+        width: 100%;
+    }
+
+
+    .heroText h1 {
+        font-size: 45px;
+    }
+
+    .heroSection {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .heroContent {
+        gap: 2rem;
+        max-width: 500px;
+
+    }
+
+    .heroImg {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .heroText h1 {
+        font-size: xx-large;
+    }
+
+    .heroText p {
+        font-size: 15px;
+        line-height: 1.3rem;
+       
+    }
+
+    
+}
+
+@media screen and (max-width:637px) {
+    .controlbtn {
+        display: none;
+    }
+
+    .heroImg,
+    .heroText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heroText h1 {
+        font-size: 25px;
+    }
+
+    .heroImg img {
+        width: 250px;
+    }
+
+    .heroText p{
+         text-align: center;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .heroContent {
+        padding-inline: 2rem;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .heroText h1 {
+        font-size: 20px;
+    }
+
+    .heroText p {
+        font-size: 11px;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .heroText h1 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:344px){
+    .heroText h1{
+        font-size: 1rem;
+    }
+}

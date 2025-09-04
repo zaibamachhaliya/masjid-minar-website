@@ -1,0 +1,547 @@
+.aboutHerosection {
+    height: 70vh;
+    background-image: url('abouthero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 100%), url(https://masjidminar.com/wp-content/uploads/2021/12/WhatsApp-Image-2021-12-02-at-3.41.39-PM.jpeg) !important;
+}
+
+.aboutHeroSectionContainer {
+    max-width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.aboutCotainerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.aboutCotainerContent .harmain {
+    background-color: #ede031;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.6rem 1.2rem;
+    border-radius: 40px;
+
+}
+
+.aboutCotainerContent h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.comapnybtn {
+    padding: 0.7rem 1rem;
+    border: none;
+    background-color: #04422e;
+    color: white;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.comapnybtn:hover {
+    background-color: #045c40;
+    transition: 0.2s ease-in-out;
+}
+
+.comapnybtn svg {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.2s ease-in-out;
+    margin-left: 5px;
+}
+
+.comapnybtn:hover svg {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 0.2s ease-in-out;
+}
+
+.aboutCotainerContent p {
+    line-height: 1.5rem;
+    color: white;
+    opacity: 1 !important;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .aboutCotainerContent {
+        padding-inline: 3rem;
+    }
+
+    .aboutHerosection {
+        height: auto;
+        padding-block: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:597px) {
+    .aboutCotainerContent h1 {
+        font-size: 20px;
+    }
+
+    .aboutCotainerContent p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        margin-block: 1rem;
+    }
+}
+
+
+.numberSection {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.numberSectionContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.numberPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-right: 1px solid lightgrey;
+    padding: 1rem;
+}
+
+.numberPart h1,
+h4,
+p {
+    margin: 0;
+}
+
+.numberPart p {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.numberPart h1 {
+    font-size: 70px;
+}
+
+.numberPart h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:948px) {
+    .numberSection {
+        height: auto;
+    }
+
+    .numberSectionContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .numberPart {
+        border: 0;
+        width: 90% !important;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .numberPart h1 {
+        font-size: 3.4rem;
+    }
+}
+
+.missionSection {
+    height: auto;
+}
+
+
+
+.missionSectionContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+
+.missionpart {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 40%;
+}
+
+
+.missionpart ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.missionpart ul li {
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #666;
+    border-right: 1px solid #ddd;
+}
+
+.missionpart ul li:last-child {
+    border-right: none;
+}
+
+.missionpart ul li:first-child {
+    background: #fff;
+    color: #333;
+}
+
+
+.missionpart>div {
+    background: #fff;
+    padding: 20px;
+    color: #444;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.missionpart p {
+    opacity: 0.8;
+}
+
+.tabActive {
+    background-color: rgb(231, 226, 226) !important;
+}
+
+.harmainPart {
+    width: 50%;
+    margin-top: -1rem;
+
+}
+
+.harmainContent {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.harmainContent h1 {
+    font-size: 45px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.harmainContent p {
+
+    line-height: 1.7rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.harmainContent button {
+    padding: 0.7rem 1rem;
+    border: none;
+    background-color: #04422e;
+    color: white;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.harmainContent button:hover {
+    background-color: #045c40;
+    transition: 0.2s ease-in-out;
+}
+
+.harmainContent button svg {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    transform: translateX(-20px);
+}
+
+.harmainContent button:hover svg {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    transform: translateX(0px);
+}
+
+.outline {
+    border-bottom: 2px solid #ede031;
+    width: 200px;
+    height: 5px;
+}
+
+@media screen and (max-width:1038px) {
+
+    .missionSection {
+        height: auto;
+    }
+
+    .missionSectionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .missionpart,
+    .harmainPart {
+        width: 100%;
+    }
+
+    .harmainContent h1 {
+        font-size: 2rem;
+    }
+
+    .harmainContent p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .harmainContent h1 {
+        font-size: 1.5rem;
+    }
+
+    .harmainContent p {
+        line-height: 1.4rem;
+    }
+}
+
+
+.exploreSection {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+    padding-bottom: 5rem;
+}
+
+.explorePrt {
+    width: 100%;
+    height: auto;
+    background-color: #f3f7f7;
+    padding-block: 2.5rem;
+}
+
+.explorePartContainer {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+}
+
+.explorePartContainer h1 {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.explorePartContainer p {
+    opacity: 0.7;
+}
+
+@media screen and (max-width:992px) {
+    .explorePartContainer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-inline: 2.4rem;
+
+    }
+
+    .explorePartContainer h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .explorePartContainer h1 {
+        font-size: 1.5rem;
+    }
+
+    .explorePartContainer p {
+        margin-bottom: 2rem;
+    }
+}
+
+.cardPart {
+   
+    height: auto;
+}
+
+.cardContainer {
+    max-width: 1150px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(180px, 1fr));
+    margin: 0 auto;
+    row-gap: 4rem;
+}
+
+.card {
+    padding: 1rem;
+    border-right: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.card h2 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.card p {
+    opacity: 0.7;
+}
+
+.outlineCard {
+    height: 1px;
+    width: 70px;
+    background-color: #666;
+}
+
+@media screen and (max-width:768px) {
+
+    .card h2 {
+        font-size: 1.7rem;
+    }
+}
+
+.qualitySection {
+    height: 40vh;
+
+}
+
+.QualitySectionContainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.content {
+    height: auto;
+    width: 100%;
+}
+
+.content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04422e;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.content button svg {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.2s ease-in-out;
+    margin-left: 5px;
+}
+
+
+
+.content button:hover svg {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 0.2s ease-in-out;
+}
+
+
+.content button:hover {
+    background-color: #045c40;
+    transition: 0.2s ease-in-out;
+}
+
+.content p {
+    opacity: 0.8;
+    line-height: 1.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:1024px) {
+    .QualitySectionContainer {
+        width: 90%;
+    }
+
+    .qualitySection{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+    .content p {
+        line-height: 1.4rem;
+        font-size: 0.9rem;
+    }
+}
+
