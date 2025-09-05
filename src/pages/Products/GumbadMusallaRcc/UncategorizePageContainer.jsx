@@ -8,7 +8,7 @@ function UnCetegorizeContainer() {
 
 
 
-    const items = GumbadDetawithSlug.filter(item => ["/masjid-gumbad.jpg", "/Musalla.jpg"].includes(item.img));
+    const items = GumbadDetawithSlug.filter(item => [`${import.meta.env.BASE_URL}masjid-gumbad.jpg`,`${import.meta.env.BASE_URL}Musalla.jpg`].includes(item.img));
    
 
     return (
@@ -32,7 +32,7 @@ function UnCetegorizeContainer() {
                                     <Link to={`/products/${slugify(ele.imgName)}`} key={idx}>
                                         <div className={styles.card}>
                                             <img src={ele.img} />
-                                            <p>{ele.imgName}</p>
+                                            <p>{ele.imgName}</p> 
                                         </div>
                                     </Link>
                                 );

@@ -5,7 +5,7 @@ const minarDeta = [
 
 
     {
-        img: '/90-feet-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}90-feet-300x452.jpg`,
         ImgName: '90 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -37,7 +37,7 @@ const minarDeta = [
 
 
     {
-        img: '/70-feet-300x451.jpg',
+        img: `${import.meta.env.BASE_URL}70-feet-300x451.jpg`,
         ImgName: '70 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -74,7 +74,7 @@ const minarDeta = [
 
 
     {
-        img: '/60-feet-300x458.jpg',
+        img: `${import.meta.env.BASE_URL}60-feet-300x458.jpg`,
         ImgName: '60 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -102,12 +102,12 @@ const minarDeta = [
             { type: 'link', Content: 'Rcc Mimber', to: '/products/rcc-mimber' }
         ]
 
-    }, 
+    },
 
 
 
     {
-        img: '/50-feet-masjid-minar-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}50-feet-masjid-minar-300x452.jpg`,
         ImgName: '50 FEET MINAR',
         P: [
             { type: 'text', Content: 'We have been the quickest growing ' },
@@ -134,7 +134,7 @@ const minarDeta = [
 
 
     {
-        img: '/44-feet-aman-masjid-minar-300x454.jpg',
+        img: `${import.meta.env.BASE_URL}44-feet-aman-masjid-minar-300x454.jpg`,
         ImgName: '44 FEET MINAR',
         P: [
             { type: 'text', Content: 'We have been the quickest growing ' },
@@ -156,7 +156,7 @@ const minarDeta = [
     },
 
     {
-        img: '/42-feet-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}42-feet-300x452.jpg`,
         ImgName: '42 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -184,7 +184,7 @@ const minarDeta = [
 
 
     {
-        img: '/40-feet-300x454.jpg',
+        img: `${import.meta.env.BASE_URL}40-feet-300x454.jpg`,
         ImgName: '40 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -216,7 +216,7 @@ const minarDeta = [
 
 
     {
-        img: '/35-feet-300x449.jpg',
+        img: `${import.meta.env.BASE_URL}35-feet-300x449.jpg`,
         ImgName: '35 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -244,7 +244,7 @@ const minarDeta = [
 
 
     {
-        img: '/32-feet-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}32-feet-300x452.jpg`,
         ImgName: '32 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -272,7 +272,7 @@ const minarDeta = [
 
 
     {
-        img: '/30-feet-aman-masjid-minar-300x454.jpg',
+        img: `${import.meta.env.BASE_URL}30-feet-aman-masjid-minar-300x454.jpg`,
         ImgName: '30 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -296,7 +296,7 @@ const minarDeta = [
             { type: 'link', Content: 'Marble Member Wuzu Stand,', to: '/products/marble-mimber--wuzu-stand' },
             { type: 'link', Content: 'Parapet jali', to: '/products/parapet-jali' },
             { type: 'text', Content: ' And ' },
-            { type: 'link', Content: 'Rcc Mimber', to: '/products/rcc-mimber' }, 
+            { type: 'link', Content: 'Rcc Mimber', to: '/products/rcc-mimber' },
 
 
         ]
@@ -305,7 +305,7 @@ const minarDeta = [
 
 
     {
-        img: '/28-feet-aman-masjid-minar-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}28-feet-aman-masjid-minar-300x452.jpg`,
         ImgName: '28 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -338,7 +338,7 @@ const minarDeta = [
 
 
     {
-        img: '/25-feet-aman-masjid-minar-300x453.jpg',
+        img: `${import.meta.env.BASE_URL}25-feet-aman-masjid-minar-300x453.jpg`,
         ImgName: '25 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -365,7 +365,7 @@ const minarDeta = [
     },
 
     {
-        img: '/23-feet-300x451.jpg',
+        img: `${import.meta.env.BASE_URL}23-feet-300x451.jpg`,
         ImgName: '23 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -392,7 +392,7 @@ const minarDeta = [
 
     },
     {
-        img: '/22-feet-masjid-minar-300x454.jpg',
+        img: `${import.meta.env.BASE_URL}22-feet-masjid-minar-300x454.jpg`,
         ImgName: '22 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -419,7 +419,7 @@ const minarDeta = [
 
     },
     {
-        img: '/20-feet-masjid-minar-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}20-feet-masjid-minar-300x452.jpg`,
         ImgName: '20 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -446,7 +446,7 @@ const minarDeta = [
 
     },
     {
-        img: '/18-feet-masjid-minar-300x454.jpg',
+        img: `${import.meta.env.BASE_URL}18-feet-masjid-minar-300x454.jpg`,
         ImgName: '18 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -473,7 +473,7 @@ const minarDeta = [
 
     },
     {
-        img: '/17-feet-masjid-minar-300x451.jpg',
+        img: `${import.meta.env.BASE_URL}17-feet-masjid-minar-300x451.jpg`,
         ImgName: '17 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -498,7 +498,7 @@ const minarDeta = [
 
     },
     {
-        img: '/16-feet-masjid-minar-300x451.jpg',
+        img: `${import.meta.env.BASE_URL}16-feet-masjid-minar-300x451.jpg`,
         ImgName: '16 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -526,7 +526,7 @@ const minarDeta = [
 
     },
     {
-        img: '/14-feet-masjid-minar-300x450.jpg',
+        img: `${import.meta.env.BASE_URL}14-feet-masjid-minar-300x450.jpg`,
         ImgName: '14 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -552,7 +552,7 @@ const minarDeta = [
 
     },
     {
-        img: '/12-feet-masjid-minar-300x450.jpg',
+        img: `${import.meta.env.BASE_URL}12-feet-masjid-minar-300x450.jpg`,
         ImgName: '12 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -573,7 +573,7 @@ const minarDeta = [
 
     },
     {
-        img: '/11-feet-masjid-minar-300x450.jpg',
+        img: `${import.meta.env.BASE_URL}11-feet-masjid-minar-300x450.jpg`,
         ImgName: '11 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -594,7 +594,7 @@ const minarDeta = [
 
     },
     {
-        img: '/8-feet-masjid-minar-300x451.jpg',
+        img: `${import.meta.env.BASE_URL}8-feet-masjid-minar-300x451.jpg`,
         ImgName: '8 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -619,7 +619,7 @@ const minarDeta = [
 
     },
     {
-        img: '/6-feet-masjid-minar-300x456.jpg',
+        img: `${import.meta.env.BASE_URL}6-feet-masjid-minar-300x456.jpg`,
         ImgName: '6 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -646,7 +646,7 @@ const minarDeta = [
 
     },
     {
-        img: '/5-feet-masjid-minar-300x455.jpg',
+        img: `${import.meta.env.BASE_URL}5-feet-masjid-minar-300x455.jpg`,
         ImgName: '5 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -667,7 +667,7 @@ const minarDeta = [
 
     },
     {
-        img: '/3.5-feet-masjid-minar-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}3.5-feet-masjid-minar-300x452.jpg`,
         ImgName: '3 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -694,7 +694,7 @@ const minarDeta = [
 
     },
     {
-        img: '/2-feet-masjid-minar-300x452.jpg',
+        img: `${import.meta.env.BASE_URL}2-feet-masjid-minar-300x452.jpg`,
         ImgName: '2 FEET MINAR',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },
@@ -716,7 +716,7 @@ const minarDeta = [
             { type: 'link', Content: 'Marble Member Wuzu Stand,', to: '/products/marble-mimber--wuzu-stand' },
             { type: 'link', Content: 'Parapet jali', to: '/products/parapet-jali' },
             { type: 'text', Content: ' And ' },
-            { type: 'link', Content: 'Rcc Mimber', to: '/products/rcc-mimber' } 
+            { type: 'link', Content: 'Rcc Mimber', to: '/products/rcc-mimber' }
         ]
     },
 ];

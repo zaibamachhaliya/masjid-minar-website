@@ -4,12 +4,12 @@ import { slugify } from "./utils";
 
 const minarGellery = [
     {
-        img: '/All-Masjid-Parts-300x224 (2).jpg',
+        img: `${import.meta.env.BASE_URL}All-Masjid-Parts-300x224 (2).jpg`,
         imgName: 'All Masjid Product',
         description: [],
     },
     {
-        img: '/high-quality-minar-300x230 (1).jpg',
+        img: `${import.meta.env.BASE_URL}high-quality-minar-300x230 (1).jpg`,
         imgName: 'High Quality Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -44,7 +44,7 @@ const minarGellery = [
     },
 
     {
-        img: '/khubsurat-minar-300x227 (1).jpg',
+        img: `${import.meta.env.BASE_URL}khubsurat-minar-300x227 (1).jpg`,
         imgName: 'khubsurat-Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -80,7 +80,7 @@ const minarGellery = [
 
     },
     {
-        img: '/Lighting-Minar-khubsurat-Minar-300x228 (1).jpg',
+        img: `${import.meta.env.BASE_URL}Lighting-Minar-khubsurat-Minar-300x228 (1).jpg`,
         imgName: 'Lighting Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -109,7 +109,7 @@ const minarGellery = [
         ]
     },
     {
-        img: '/Madani-Minar-300x233.jpg',
+        img: `${import.meta.env.BASE_URL}Madani-Minar-300x233.jpg`,
         imgName: 'Madni Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -146,7 +146,7 @@ const minarGellery = [
     },
 
     {
-        img: '/makki-minar-300x235.jpg',
+        img: `${import.meta.env.BASE_URL}makki-minar-300x235.jpg`,
         imgName: 'Makki Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -185,7 +185,7 @@ const minarGellery = [
 
 
     {
-        img: '/65699cd6-799b-4362-a888-0557ae6e3021-300x168 (1).jpg',
+        img: `${import.meta.env.BASE_URL}65699cd6-799b-4362-a888-0557ae6e3021-300x168 (1).jpg`,
         imgName: 'Minar Block',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -224,7 +224,7 @@ const minarGellery = [
 
 
     {
-        img: '/mosque-minar-all2-300x151.jpg',
+        img: `${import.meta.env.BASE_URL}mosque-minar-all2-300x151.jpg`,
         imgName: 'Mosque Minar – Masjid ke Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -264,7 +264,7 @@ const minarGellery = [
 
 
     {
-        img: '/Shandar-Minar-300x232.jpg',
+        img: `${import.meta.env.BASE_URL}Shandar-Minar-300x232.jpg`,
         imgName: 'Shandar-Minar',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -293,9 +293,9 @@ const minarGellery = [
 
     },
     {
-        img: '/strong-minar-1.png',
+      img: `${import.meta.env.BASE_URL}strong-minar-1.png`,
         imgName: 'Strong Minar',
-        description:[
+        description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
             { type: "text", Content: " have started in 1983, ever since it’s been the quickest " },
             { type: "bold", Content: "growing" },

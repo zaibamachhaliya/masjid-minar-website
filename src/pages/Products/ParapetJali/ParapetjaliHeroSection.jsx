@@ -1,12 +1,12 @@
 import styles from '/src/styles/ParapetJali.module.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function ParapetJaliHeroSection() {
   return (
     <section className={styles.parapetjaliHeroSection}>
       <div className={styles.ParpetJaliHeroContainer}>
         <div className={styles.parapetJaliHeroContent}>
           <div className={styles.parapetJaliHeroImgPart}>
-            <img src='/img2.png'
+            <img src={`${import.meta.env.BASE_URL}img2.png`} alt="Description"
               data-aos="zoom-in"
               data-aos-duration="3000"
             />

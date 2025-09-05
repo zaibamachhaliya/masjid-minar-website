@@ -10,10 +10,10 @@ function MinarpagHeroSection() {
                 <div className={styles.heroContent}>
                     <div className={styles.imgPart}>
                         <img
-                            src='/img2.png'
+                            src={`${import.meta.env.BASE_URL}img2.png`} alt="description"
                             data-aos="zoom-in"
                             data-aos-duration="3000"
-                        /> 
+                        />
                     </div>
                     <div className={styles.minarheroText}>
                         <h3>High Quality Minar</h3>

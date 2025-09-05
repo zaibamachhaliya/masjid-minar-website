@@ -6,7 +6,10 @@ import { slugify } from '../../../data/utils';
 
 
 function RccCetegorizPageContainer() {
-    const items = GumbadDetawithSlug.find(item => '/rcc-mimber-harmain-traders.jpg'.includes(item.img));
+
+    const items = GumbadDetawithSlug.find(item =>
+        item.img === `${import.meta.env.BASE_URL}rcc-mimber-harmain-traders.jpg`
+    );
 
 
     return (

@@ -1,5 +1,5 @@
 import styles from '/src/styles/Wuzustand.module.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function WuzuStandContainer() {
     return (
@@ -7,7 +7,7 @@ function WuzuStandContainer() {
             <div className={styles.wuzuStandHeroContent}>
                 <div className={styles.wusuStnadImgPart}>
                     <img
-                        src='/marblemimber.jpeg'
+                        src={`${import.meta.env.BASE_URL}marblemimber.jpeg`}
                         data-aos="zoom-in"
                         data-aos-duration="3000"
                     />

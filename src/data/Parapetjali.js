@@ -4,7 +4,7 @@ import { slugify } from "./utils";
 
 const ParapetJali = [
     {
-        img: '/parapet-boundry-wall-harmain-traders-3.jpg',
+        img: `${import.meta.env.BASE_URL}parapet-boundry-wall-harmain-traders-3.jpg`,
         imgName: 'Parapet Boundary Wall',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -41,7 +41,7 @@ const ParapetJali = [
 
 
     {
-        img: '/parapet-jali-for-masjid.jpg',
+        img: `${import.meta.env.BASE_URL}parapet-jali-for-masjid.jpg`,
         imgName: 'Medium Size Paraper Jali',
         description: [
             { type: "text", Content: "Since our establishment in " },
@@ -58,7 +58,7 @@ const ParapetJali = [
 
 
     {
-        img: '/masjid-shahi-boundry-jali.jpg',
+        img: `${import.meta.env.BASE_URL}masjid-shahi-boundry-jali.jpg`,
         imgName: 'Shahi Boundary',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -93,7 +93,7 @@ const ParapetJali = [
 
 
     {
-        img: '/parapet-jali.jpg',
+        img: `${import.meta.env.BASE_URL}parapet-jali.jpg`,
         imgName: 'small paraper-jali',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -124,7 +124,7 @@ const ParapetJali = [
 
 
     {
-        img: '/Parapet-jali-Design-01.jpg',
+        img: `${import.meta.env.BASE_URL}Parapet-jali-Design-01.jpg`,
         imgName: 'Paraper-Jali Design:1',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -154,7 +154,7 @@ const ParapetJali = [
     },
 
     {
-        img: '/Parapet-jali-Design-02.jpg',
+        img: `${import.meta.env.BASE_URL}Parapet-jali-Design-02.jpg`,
         imgName: 'Parapet-Jali Design:2',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -184,7 +184,7 @@ const ParapetJali = [
 
 
     {
-        img: '/Parapet-jali-Design-03.jpg',
+        img: `${import.meta.env.BASE_URL}Parapet-jali-Design-03.jpg`,
         imgName: 'Parapet-Jali Design:3',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -204,14 +204,14 @@ const ParapetJali = [
 
 
     {
-        img: '/Parapet-jali-Design-04 (1).jpg',
+        img: `${import.meta.env.BASE_URL}Parapet-jali-Design-04 (1).jpg`,
         imgName: 'Paraper-Jali Design-4',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
             { type: "text", Content: " is established in " },
             { type: "bold", Content: "1983" },
             { type: "text", Content: ", we have offered " },
-            { type: "link", Content: "Medium Size Parapet Boundary Wall." ,to:'/products/parapet-jali/parapet-boundary-wall'},
+            { type: "link", Content: "Medium Size Parapet Boundary Wall.", to: '/products/parapet-jali/parapet-boundary-wall' },
             { type: "text", Content: " Available in several designs, finishes, and sizes, this " },
             { type: "bold", Content: "boundary wall" },
             { type: "text", Content: " is ideal for fencing the areas around the structures to provide them with stunning looks. Our talented professionals have designed and constructed this wall with " },
@@ -232,7 +232,7 @@ const ParapetJali = [
 
     },
     {
-        img: '/Parapet-jali-Design-05.jpg',
+        img: `${import.meta.env.BASE_URL}Parapet-jali-Design-05.jpg`,
         imgName: 'Parapet-Jali Design-5',
         description: [
             { type: 'text', Content: 'Harmain Traders is one of India’s fastest growing ISO-certified manufacturers. Since 1983, we have been manufacturing and supplying Parapet Boundary Walls which is. Available in a variety of designs, finishes, and sizes. This Parapet Jali is ideal for fencing the areas around structures to give them a stunning appearance. Using cement concrete and creative designs, our professional team designed and built the wall in accordance with all processes. Parapet Jali can be purchased at Harmain Traders for the most affordable prices' },
@@ -240,6 +240,8 @@ const ParapetJali = [
     },
 
 ];
+
+
 
 const ParapatJaliDataWithSlug = ParapetJali.map(item => ({
     ...item,

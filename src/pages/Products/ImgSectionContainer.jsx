@@ -3,10 +3,9 @@ import styles from "../../styles/ProductPage.module.css";
 
 function ImgSectionContainer() {
 
-
     const ProductPageDeta = [
         {
-            img: '/img1.png',
+            img: `${import.meta.env.BASE_URL}img1.png`,
             hading: 'Readymade RCC Masjid Minar',
             description: [
                 { type: "text", value: "Offering various sizes of " },
@@ -18,7 +17,7 @@ function ImgSectionContainer() {
         },
 
         {
-            img: '/img3.png',
+            img: `${import.meta.env.BASE_URL}img3.png`,
             hading: 'Parapet Boundary Wall',
             description: [
                 { type: "text", value: "We provide beautifully designed " },
@@ -30,8 +29,8 @@ function ImgSectionContainer() {
         },
 
         {
-            img: '/img2.png',
-            hading: 'Gumbad (Doms',
+            img: `${import.meta.env.BASE_URL}img2.png`,
+            hading: 'Gumbad (Doms)',
             description: [
                 { type: 'text', value: 'At Harmain Minar' },
                 { type: 'bold', value: 'Masjid domes (Gumbads)' },
@@ -39,7 +38,7 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/card4.jpg',
+            img: `${import.meta.env.BASE_URL}card4.jpg`,
             hading: 'Wuzu Stand',
             description: [
                 { type: 'text', value: 'We Have' },
@@ -48,7 +47,7 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/marble-jali-1-480x360.jpeg',
+            img: `${import.meta.env.BASE_URL}marble-jali-1-480x360.jpeg`,
             hading: 'Marble Jali for Dargah',
             description: [
                 { type: 'text', value: 'We provide high-quality' },
@@ -57,7 +56,7 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/Musalla.jpg',
+            img: `${import.meta.env.BASE_URL}Musalla.jpg`,
             hading: 'Musalla Tiles',
             description: [
                 { type: 'text', value: 'Provides' },
@@ -66,7 +65,7 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/Rcc-Mimber.jpeg',
+            img: `${import.meta.env.BASE_URL}Rcc-Mimber.jpeg`,
             hading: 'Mimber For Masjid',
             description: [
                 { type: 'text', value: 'Our' },
@@ -75,7 +74,7 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/harmain-minar-marble-product (1).png',
+            img: `${import.meta.env.BASE_URL}harmain-minar-marble-product (1).png`,
             hading: 'Mehrab (Qibla)',
             description: [
                 { type: 'text', value: 'We make nice and strong' },
@@ -86,20 +85,22 @@ function ImgSectionContainer() {
             ]
         },
         {
-            img: '/secondpartImg.jpg',
+            img: `${import.meta.env.BASE_URL}secondpartImg.jpg`,
             hading: 'RCC Products for Masjid',
             description: [
                 { type: 'text', value: 'Offering various sizes from 2 feet to 35 feet, our ready-made minars are designed with precision and care to suit different architectural requirements.' },
             ]
         },
         {
-            img: '/harmain-minar-marble-product (1).png',
+            img: `${import.meta.env.BASE_URL}harmain-minar-marble-product (1).png`,
             hading: 'Marble Products For Masjid',
             description: [
                 { type: 'text', value: 'Crafted to add grandeur to mosque structures, our gumbads are known for their impeccable finish and durability.' },
             ]
         },
-    ]
+    ];
+
+
 
 
 
@@ -122,12 +123,12 @@ function ImgSectionContainer() {
                                 <p>
                                     {item.description.map((part, idx) => {
                                         if (part.type === "text") {
-                                            return <span key={idx} style={{fontWeight:'300'}}>{part.value}{"  "}</span>;
+                                            return <span key={idx} style={{ fontWeight: '300' }}>{part.value}{"  "}</span>;
                                         }
                                         if (part.type === "bold") {
-                                            return <strong key={idx} style={{fontWeight:'bold'}}>{part.value}{"  "}</strong>
+                                            return <strong key={idx} style={{ fontWeight: 'bold' }}>{part.value}{"  "}</strong>
                                         }
-                                        
+
                                         return null;
                                     })}
                                 </p>

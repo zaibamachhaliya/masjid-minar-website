@@ -4,7 +4,7 @@ import { slugify } from "./utils";
 const GumbadMusalla = [
 
     {
-        img: '/masjid-gumbad.jpg',
+        img: `${import.meta.env.BASE_URL}masjid-gumbad.jpg`,
         imgName: 'Gumbad',
         P: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local" },
@@ -29,14 +29,14 @@ const GumbadMusalla = [
     },
 
     {
-        img: '/Musalla.jpg',
+        img: `${import.meta.env.BASE_URL}Musalla.jpg`,
         imgName: 'Musalla Tiles',
         P: [],
         categoriz: 'Uncategorized',
     },
 
     {
-        img: '/rcc-mimber-harmain-traders.jpg',
+        img: `${import.meta.env.BASE_URL}rcc-mimber-harmain-traders.jpg`,
         imgName: 'RCC Mimber',
         P: [
             { type: 'link', Content: 'Harmain Traders', to: 'https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072&gsas=1&client=ms-android-oneplus&lsig=AB86z5VmLQhhIC4TnCt9__ybbUe-&kgs=d982538cffd756cd&shndl=-1&source=sh/x/kp/local/2&entrypoint=sh/x/kp/local' },

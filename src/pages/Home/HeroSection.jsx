@@ -4,8 +4,10 @@ import styles from "../../styles/HeroSection.module.css";
 
 function HeroSection() {
     return (
-        <section className={styles.heroSection}>
-            <HeroContainer/>
+        <section className={styles.heroSection} style={{
+            backgroundImage: `url(${import.meta.env.BASE_URL}heroImg.jpg)`,
+        }}>
+            <HeroContainer />
         </section>
     );
 }

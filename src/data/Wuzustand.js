@@ -3,7 +3,7 @@ import { slugify } from "./utils";
 
 const Wuzustand = [
     {
-        img: '/harmain-traders-marble-mimber-2.jpg',
+        img: `${import.meta.env.BASE_URL}harmain-traders-marble-mimber-2.jpg`,
         imgName: 'Marble Mimber',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -41,7 +41,7 @@ const Wuzustand = [
 
     },
     {
-        img: '/harmain-traders-wuzu-stand-1.jpg',
+        img: `${import.meta.env.BASE_URL}harmain-traders-wuzu-stand-1.jpg`,
         imgName: 'Wuzu Stand',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -70,7 +70,7 @@ const Wuzustand = [
 
     },
     {
-        img: '/masjid-marble-mehrab.jpg',
+        img: `${import.meta.env.BASE_URL}masjid-marble-mehrab.jpg`,
         imgName: 'Masjid-Marble-Mehrab',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -97,7 +97,7 @@ const Wuzustand = [
         ],
     },
     {
-        img: '/marble-jali-for-dargah-1.jpg',
+        img: `${import.meta.env.BASE_URL}marble-jali-for-dargah-1.jpg`,
         imgName: 'MARBLE JALI FOR DARGAH',
         description: [
             { type: "link", Content: "Harmain Traders", to: "https://www.google.com/search?output=search&q=HARMAIN+PRECAST+INDUSTRIES+-+Masjid+Minar+%26+RCC+Minar+for+Masjid&ludocid=4372215395066124072" },
@@ -130,7 +130,7 @@ const Wuzustand = [
     },
 
     {
-        img: '/Marble-Qibla-and-member.jpg',
+        img: `${import.meta.env.BASE_URL}Marble-Qibla-and-member.jpg`,
         imgName: 'Marble Qibla and Mimber',
         description: [
             {

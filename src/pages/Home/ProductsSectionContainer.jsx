@@ -8,10 +8,11 @@ function ProductsSectionContainer() {
 
 
     const ProductCard = [
-        { img: '/card1.jpg' },
-        { img: '/card2.jpg' },
-        { img: '/card3.jpg' },
-        { img: '/card4.jpg' }
+        { img: `${import.meta.env.BASE_URL}card1.jpg` },
+        { img: `${import.meta.env.BASE_URL}card2.jpg` },
+        { img: `${import.meta.env.BASE_URL}card3.jpg` },
+        { img: `${import.meta.env.BASE_URL}card4.jpg` }
+
     ];
 
 

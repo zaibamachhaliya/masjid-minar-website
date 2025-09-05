@@ -9,20 +9,21 @@ function RccWork() {
 
     const rccWork = [
         {
-            img: '/Rcc-mimber-2.jpeg',
-            imgName: 'Rcc-mimber 2'
+            img: `${import.meta.env.BASE_URL}Rcc-mimber-2.jpeg`,
+            imgName: 'Rcc-mimber 2',
         },
         {
-            img: '/Rcc-Mimber.jpeg',
-            imgName: 'Rcc Mimber'
+            img: `${import.meta.env.BASE_URL}Rcc-Mimber.jpeg`,
+            imgName: 'Rcc Mimber',
         },
+
     ]
 
-    
+
     return (
         <section id="rcc-mimber" className={styles.rccWork}>
             <div className={styles.rccPhotos}>
-                {rccWork.map((ele, idx) => ( 
+                {rccWork.map((ele, idx) => (
                     <div key={idx}>
                         <img
                             src={ele.img}

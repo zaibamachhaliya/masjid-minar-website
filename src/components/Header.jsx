@@ -17,7 +17,9 @@ function Header() {
             <div className={styles.headerWrapper}>
                 {/* <Topbar /> */}
 
-                <div className={styles.topbar}>
+                <div className={styles.topbar} style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}wall.jpg)`,
+                }}>
                     <div className={styles.topbarContent}>
                         <div className={styles.topbarText}>
                             <marquee>Masjid Minar Manufacturer | Masjid Gumbad | Masjid Marble Products | Wuzu Stand | RCC Minar | Readymade Masjid Minar</marquee>
@@ -31,25 +33,25 @@ function Header() {
                         <div className={styles.headerContent}>
 
 
-                          
+
 
                             <div>
                                 <Logo />
                             </div>
 
-                           
+
                             <div>
                                 <NavbarLink mobileMenu={mobileMenu} />
                             </div>
 
 
-                         
+
                             <div>
                                 <LinkdinButton />
                             </div>
 
 
-                           
+
 
                             <div className={styles.hemburgerIcon}>
                                 <button onClick={() => setMobileMenu(!mobileMenu)}>

@@ -4,72 +4,72 @@ import { useNavigate } from "react-router-dom";
 
 function GumbadWork() {
 
-      const navigate = useNavigate();
+    const navigate = useNavigate();
 
 
     const GumbadPhotos = [
         {
-            img: '/1.jpeg',
+            img: `${import.meta.env.BASE_URL}1.jpeg`,
             imgName: '',
         },
         {
-            img: '/2.jpeg',
+            img: `${import.meta.env.BASE_URL}2.jpeg`,
             imgName: '',
         },
         {
-            img: '/3.jpeg',
+            img: `${import.meta.env.BASE_URL}3.jpeg`,
             imgName: '',
         },
         {
-            img: '/4.jpeg',
+            img: `${import.meta.env.BASE_URL}4.jpeg`,
             imgName: '',
         },
         {
-            img: '/big-gumbad.png',
+            img: `${import.meta.env.BASE_URL}big-gumbad.png`,
             imgName: 'big-gumbad',
         },
         {
-            img: '/entry-gumbad.png',
+            img: `${import.meta.env.BASE_URL}entry-gumbad.png`,
             imgName: 'entry-gumbad',
         },
         {
-            img: '/gumbadminar-1.png',
+            img: `${import.meta.env.BASE_URL}gumbadminar-1.png`,
             imgName: 'gumbad&minar',
         },
         {
-            img: '/gumbad (1).png',
+            img: `${import.meta.env.BASE_URL}gumbad (1).png`,
             imgName: 'gumbad',
         },
         {
-            img: '/gumbad-minar-1 (1).png',
+            img: `${import.meta.env.BASE_URL}gumbad-minar-1 (1).png`,
             imgName: 'gumbad-minar',
         },
         {
-            img: '/masjid-minar-1.png',
+            img: `${import.meta.env.BASE_URL}masjid-minar-1.png`,
             imgName: 'masjid-minar-1',
         },
         {
-            img: '/minargumbad-1.png',
+            img: `${import.meta.env.BASE_URL}minargumbad-1.png`,
             imgName: 'minar&gumbad',
         },
         {
-            img: '/minarandgumbad.png',
+            img: `${import.meta.env.BASE_URL}minarandgumbad.png`,
             imgName: 'minarandgumbad',
         },
         {
-            img: '/big-gumbad.png',
+            img: `${import.meta.env.BASE_URL}big-gumbad.png`,
             imgName: 'only-gumbad',
         },
         {
-            img: '/simpl-gumbad.png',
+            img: `${import.meta.env.BASE_URL}simpl-gumbad.png`,
             imgName: 'simpl-gumbad',
         },
         {
-            img: '/strong-minar.png',
+            img: `${import.meta.env.BASE_URL}strong-minar.png`,
             imgName: 'strong-minar',
         },
+    ];
 
-    ]
 
 
     return (

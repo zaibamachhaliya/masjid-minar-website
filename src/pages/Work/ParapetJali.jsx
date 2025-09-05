@@ -9,53 +9,54 @@ function ParapetJali() {
 
     const ParapetJaliPhotos = [
         {
-            img: '/perapet-jali.jpeg',
+            img: `${import.meta.env.BASE_URL}perapet-jali.jpeg`,
             imgName: 'perapet-jali',
         },
         {
-            img: '/shahi-boundary-jali.jpeg',
+            img: `${import.meta.env.BASE_URL}shahi-boundary-jali.jpeg`,
             imgName: 'shahi-boundary-jali',
         },
         {
-            img: '/small-big-jali.jpeg',
+            img: `${import.meta.env.BASE_URL}small-big-jali.jpeg`,
             imgName: 'small-big-jali',
         },
         {
-            img: '/boundary.png',
+            img: `${import.meta.env.BASE_URL}boundary.png`,
             imgName: 'boundary',
         },
         {
-            img: '/boundarywall.png',
+            img: `${import.meta.env.BASE_URL}boundarywall.png`,
             imgName: 'boundarywall',
         },
         {
-            img: '/dargah-jali.png',
+            img: `${import.meta.env.BASE_URL}dargah-jali.png`,
             imgName: 'dargah-jali',
         },
         {
-            img: '/minarparapetjali-1.png',
+            img: `${import.meta.env.BASE_URL}minarparapetjali-1.png`,
             imgName: 'minar&petjali',
         },
         {
-            img: '/parapet-jali.png',
+            img: `${import.meta.env.BASE_URL}parapet-jali.png`,
             imgName: 'parapet-jali',
         },
         {
-            img: '/img3.png',
+            img: `${import.meta.env.BASE_URL}img3.png`,
             imgName: 'parapet-jali-medium',
         },
         {
-            img: '/quberImg.png',
+            img: `${import.meta.env.BASE_URL}quberImg.png`,
             imgName: 'qubar-boundary-wall',
         },
         {
-            img: '/sahiboundary.png',
+            img: `${import.meta.env.BASE_URL}sahiboundary.png`,
             imgName: 'shahi-boundary',
         },
+    ];
 
-    ]
 
-    
+
+
     return (
         <section id="parapet-jali" className={styles.ParapetJaliWork}>
             <div className={styles.ParapetJaliWorkPhotos}>

@@ -8,47 +8,38 @@ function MarbleWork() {
 
     const MarblePhotos = [
         {
-            img: '/Gallery-photo.jpeg',
+            img: `${import.meta.env.BASE_URL}Gallery-photo.jpeg`,
             imgName: 'Gellery-photo',
-
         },
         {
-            img: '/marble-jali-1 (1).jpeg',
+            img: `${import.meta.env.BASE_URL}marble-jali-1 (1).jpeg`,
             imgName: 'marble-jali-1',
-
         },
         {
-            img: '/marble-jali-2.jpeg',
+            img: `${import.meta.env.BASE_URL}marble-jali-2.jpeg`,
             imgName: 'marble-jali-2',
-
         },
         {
-            img: '/marble-mehrab-design-1.jpeg',
+            img: `${import.meta.env.BASE_URL}marble-mehrab-design-1.jpeg`,
             imgName: 'marble-mehrab-design-1',
-
         },
         {
-            img: '/marble-mehrab-design-2.jpeg',
+            img: `${import.meta.env.BASE_URL}marble-mehrab-design-2.jpeg`,
             imgName: 'marble-mehrab-design-2',
-
         },
         {
-            img: '/marble-mehrabmarble-mimber.png',
+            img: `${import.meta.env.BASE_URL}marble-mehrabmarble-mimber.png`,
             imgName: 'marble-mehrab&marble-mimber',
-
         },
         {
-            img: '/marble-mehrab-1.png',
+            img: `${import.meta.env.BASE_URL}marble-mehrab-1.png`,
             imgName: 'marble-mehrab-1',
-
         },
         {
-            img: '/marblemehrab-mimber.png',
+            img: `${import.meta.env.BASE_URL}marblemehrab-mimber.png`,
             imgName: 'marblemehrab-mimber',
-
         },
-    ]
-
+    ];
 
     return (
         <section id="marble-work" className={styles.marbleWork}>

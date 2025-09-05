@@ -10,162 +10,155 @@ function MinarWork() {
 
   const MinarWorkImges = [
     {
-      img: '/firstImg.jpeg',
+      img: `${import.meta.env.BASE_URL}firstImg.jpeg`,
       imgName: 'minar',
     },
     {
-      img: '/SecondImg.png',
+      img: `${import.meta.env.BASE_URL}SecondImg.png`,
       imgName: '5 minar',
     },
     {
-      img: '/ThirdeImg.png',
+      img: `${import.meta.env.BASE_URL}ThirdeImg.png`,
       imgName: 'beautiful minar',
     },
     {
-      img: '/gumbadminar-1.png',
+      img: `${import.meta.env.BASE_URL}gumbadminar-1.png`,
       imgName: 'gumbad&minar',
     },
     {
-      img: '/FiveImg.png',
+      img: `${import.meta.env.BASE_URL}FiveImg.png`,
       imgName: 'led-minar',
     },
     {
-      img: '/SixImg.png',
+      img: `${import.meta.env.BASE_URL}SixImg.png`,
       imgName: 'light-minar',
     },
     {
-      img: '/SevenImg.png',
+      img: `${import.meta.env.BASE_URL}SevenImg.png`,
       imgName: 'masjid-minar-3',
     },
     {
-      img: '/EheightImg.png',
+      img: `${import.meta.env.BASE_URL}EheightImg.png`,
       imgName: 'minar And Gumbad',
     },
     {
-      img: '/masjid-minar-1.png',
+      img: `${import.meta.env.BASE_URL}masjid-minar-1.png`,
       imgName: 'masjid-minar-1',
     },
     {
-      img: '/minargumbad-1.png',
+      img: `${import.meta.env.BASE_URL}minargumbad-1.png`,
       imgName: 'minar&gumbad',
     },
     {
-      img: '/minarparapetjali-1.png',
+      img: `${import.meta.env.BASE_URL}minarparapetjali-1.png`,
       imgName: 'minar&parapetjali',
     },
     {
-      img: '/minar.png',
+      img: `${import.meta.env.BASE_URL}minar.png`,
       imgName: 'minar',
     },
     {
-      img: '/minar-6.png',
+      img: `${import.meta.env.BASE_URL}minar-6.png`,
       imgName: 'minar-6',
     },
     {
-      img: '/minar-7.png',
+      img: `${import.meta.env.BASE_URL}minar-7.png`,
       imgName: 'minar-7',
     },
     {
-      img: '/minar-8.png',
+      img: `${import.meta.env.BASE_URL}minar-8.png`,
       imgName: 'minar-8',
     },
     {
-      img: '/minar-11.png',
+      img: `${import.meta.env.BASE_URL}minar-11.png`,
       imgName: 'minar-11',
     },
     {
-      img: '/minar12.png',
+      img: `${import.meta.env.BASE_URL}minar12.png`,
       imgName: 'minar12',
     },
     {
-      img: '/minar-13.png',
+      img: `${import.meta.env.BASE_URL}minar-13.png`,
       imgName: 'minar-13',
     },
     {
-      img: '/minar14.png',
+      img: `${import.meta.env.BASE_URL}minar14.png`,
       imgName: 'minar14',
     },
     {
-      img: '/minar15.png',
+      img: `${import.meta.env.BASE_URL}minar15.png`,
       imgName: 'minar15',
     },
     {
-      img: '/minar16.png',
+      img: `${import.meta.env.BASE_URL}minar16.png`,
       imgName: 'minar16',
     },
     {
-      img: '/minar17.png',
+      img: `${import.meta.env.BASE_URL}minar17.png`,
       imgName: 'minar17',
     },
     {
-      img: '/minar18.png',
+      img: `${import.meta.env.BASE_URL}minar18.png`,
       imgName: 'minar18',
     },
     {
-      img: '/minar20.png',
+      img: `${import.meta.env.BASE_URL}minar20.png`,
       imgName: 'minar20',
     },
     {
-      img: '/minar21.png',
+      img: `${import.meta.env.BASE_URL}minar21.png`,
       imgName: 'minar21',
     },
     {
-      img: '/minars.png',
+      img: `${import.meta.env.BASE_URL}minars.png`,
       imgName: 'minars',
     },
     {
-      img: '/minares.png',
+      img: `${import.meta.env.BASE_URL}minares.png`,
       imgName: 'minares',
     },
-
     {
-      img: '/very-beautiful-minars.png',
+      img: `${import.meta.env.BASE_URL}very-beautiful-minars.png`,
       imgName: 'very-beautiful-minars',
     },
-
     {
-      img: '/very-beautiful-minar.png',
+      img: `${import.meta.env.BASE_URL}very-beautiful-minar.png`,
       imgName: 'very-beautiful-minar',
     },
-
     {
-      img: '/strong-minar-1.png',
+      img: `${import.meta.env.BASE_URL}strong-minar-1.png`,
       imgName: 'strong-minar',
     },
-
     {
-      img: '/small-minar.png',
+      img: `${import.meta.env.BASE_URL}small-minar.png`,
       imgName: 'small-minar',
     },
-
     {
-      img: '/smal-gumbad.png',
+      img: `${import.meta.env.BASE_URL}smal-gumbad.png`,
       imgName: 'smal-gumbad',
     },
-
     {
-      img: '/shandar-minars.png',
+      img: `${import.meta.env.BASE_URL}shandar-minars.png`,
       imgName: 'shandar-minars',
     },
     {
-      img: '/shandar-minar.png',
+      img: `${import.meta.env.BASE_URL}shandar-minar.png`,
       imgName: 'shandar-minar',
     },
     {
-      img: '/simple-minar.png',
+      img: `${import.meta.env.BASE_URL}simple-minar.png`,
       imgName: 'simple-minar',
     },
-
     {
-      img: '/big-minar-1.png',
+      img: `${import.meta.env.BASE_URL}big-minar-1.png`,
       imgName: 'big-minar',
     },
-
     {
-      img: '/gumbad-minar.png',
+      img: `${import.meta.env.BASE_URL}gumbad-minar.png`,
       imgName: 'gumbad-minar',
     },
-  ]
+  ];
+
 
 
 

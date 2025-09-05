@@ -9,11 +9,12 @@ function IntroductionContent() {
     <div className={styles.introductionContent}>
       <div className={styles.introductionImg}>
         <img
-          src='img2.png'
+          src={`${import.meta.env.BASE_URL}img2.png`}
           alt="Masjid Minar 1"
           data-aos="zoom-in"
           data-aos-duration="3000"
         />
+
       </div>
 
       <div className={styles.introductionText}>
