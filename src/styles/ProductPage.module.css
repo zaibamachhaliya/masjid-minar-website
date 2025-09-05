@@ -1,10 +1,9 @@
 .productHeroSection {
     height: 77.6vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        url('productHero.png');
     background-position: center;
 
 }
+
 
 .productSectionContainer {
     height: 100%;

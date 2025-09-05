@@ -9,7 +9,7 @@ function Minargelleryli({ Makeurl }) {
         <>
             {
 
-                <ul className={styles.MinargellerydropDown}>
+                <ul className={styles.MinargellerydropDown} style={{margin:'0'}}>
                     {
                         Minargellery.map((minargelleryItem, idx) => {
                             return <li key={idx}>

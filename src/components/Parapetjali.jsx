@@ -9,7 +9,7 @@ function Parapetjali({ Makeurl }) {
     return (
         <>
             {
-                <ul className={styles.ParapetJalidropdown}>
+                <ul className={styles.ParapetJalidropdown} style={{margin:'0'}}>
                     {
                         Parapetjali.map((paratapitme, idx) => {
                             return <li key={idx}>

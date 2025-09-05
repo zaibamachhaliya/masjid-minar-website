@@ -62,7 +62,6 @@ function NavbarLink({ mobileMenu }) {
                                 }}
                             >
 
-
                                 <NavLink to={`/${outerli.toLowerCase()}`}>
 
                                     {({ isActive }) => (

@@ -9,7 +9,7 @@ function Minarli({Makeurl}) {
     return (
        
            <>
-                <ul className={styles.Minardropdown}>
+                <ul className={styles.Minardropdown} style={{margin:'0'}}> 
                     {
                         Minarli.map((minarItem, idx) => {
                             return <li key={idx}>

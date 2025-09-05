@@ -13,7 +13,7 @@ function MarbleMimberWuzuStand({ Makeurl }) {
     return (
         <>
             {
-                <ul className={styles.MarbleMimberDropdown}>
+                <ul className={styles.MarbleMimberDropdown} style={{margin:'0'}}>
                     {
                         MarbleMimerlink.map((mimberItem, idx) => {
                             return (
