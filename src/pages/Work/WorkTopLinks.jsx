@@ -1,4 +1,5 @@
 import styles from "../../styles/WorkPage.module.css";
+import { HashLink } from "react-router-hash-link";
 
 function WorkTopLinks() {
 
@@ -10,13 +11,18 @@ function WorkTopLinks() {
         { links: 'RCC Mimber', href: '#rcc-mimber' },
     ]
 
+
     return (
         <div className={styles.Toplinks}>
             <div className={styles.toplinksContainer}>
                 <ul>
-                    {TopLinks.map((ele, idx) => {
-                        return <li key={idx}><a href={ele.href}>{ele.links}</a></li>
-                    })}
+                    {TopLinks.map((ele, idx) => (
+                        <li key={idx}>
+                            <HashLink smooth to={ele.href}>
+                                {ele.links}
+                            </HashLink>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>

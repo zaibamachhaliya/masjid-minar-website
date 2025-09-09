@@ -168,7 +168,7 @@ function MinarWork() {
         {MinarWorkImges.map((ele, idx) => (
           <div key={idx}>
             <img
-              src={ele.img}
+              src={ele.img} 
               onClick={() =>
                 navigate("/img/preview", { state: { img: ele.img, imgName: ele.imgName } })
               }
